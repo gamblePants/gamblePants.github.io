@@ -18,8 +18,11 @@ This repository has been created soley for the purpose of hosting images for my 
   <li>Now create a folder in the repo called img</li>
   <li>(You may wish to use a different folder structure)</li>
   <li>Upload an image to the folder</li>
-  <li>In my above example I uploaded an image called gitHub_Pages_01.PNG</li>
+  <li>In the above example I uploaded an image called gitHub_Pages_01.PNG</li>
   <li>Use the following syntax to call the image in your readme.md file:</li>
 </ul>
 
 ![gitHub_Pages_02.PNG](https://gamblepants.github.io/img/gitHub_Pages_02.PNG)
+
+
+Check out https://pages.github.com/ for more info on GitHub Pages
