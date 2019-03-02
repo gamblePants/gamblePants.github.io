@@ -18,7 +18,8 @@ This repository has been created soley for the purpose of hosting images for my 
 - In the above example I uploaded an image called gitHub_Pages_01.PNG
 - Use the following syntax to call the image in your readme.md file:
 
-![gitHub_Pages_02.PNG](https://gamblepants.github.io/img/gitHub_Pages_02.PNG)
-
+```
+![gitHub_Pages_01.PNG](https://gamblepants.github.io.img/gitHub_Pages_01.PNG)
+```
 
 Check out https://pages.github.com/ for more info on GitHub Pages
