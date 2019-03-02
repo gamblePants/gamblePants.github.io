@@ -16,7 +16,7 @@ This repository has been created soley for the purpose of hosting images for my 
 - (You may wish to use a different folder structure)
 - Upload an image to the folder
 - In the above example I uploaded an image called gitHub_Pages_01.PNG
-- Use the following syntax to call the image in your readme.md file:
+- Use the following syntax to call the image when you edit your readme.md file:
 
 ```
 ![gitHub_Pages_01.PNG](https://gamblepants.github.io.img/gitHub_Pages_01.PNG)
