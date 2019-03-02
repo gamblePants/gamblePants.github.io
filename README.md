@@ -2,25 +2,21 @@
 
 This repository has been created soley for the purpose of hosting images for my readme.md files in GitHub
 
-## insctructions for how to use GitHub Pages to host images:
+## Insctructions for how to use GitHub Pages to host images:
 
-<ul>
-  <li>Create a new repository called (yourUserName).github.io</li>
-  <li>Create a simple index.html file and upload it to to the repo</li>
-  <li>Test that it is working by going to https://(username).github.io</li>
-  <li>If you can view the html file it should be all set up</li>
-</ul>
+- Create a new repository called (yourUserName).github.io
+- Create a simple index.html file and upload it to to the repo
+- Test it is working by going to https://(username).github.io
+- If you can view the html file it should be all set up
 
 <br ><br >
 ![gitHub_Pages_01.PNG](https://gamblepants.github.io/img/gitHub_Pages_01.PNG)
 
-<ul>
-  <li>Now create a folder in the repo called img</li>
-  <li>(You may wish to use a different folder structure)</li>
-  <li>Upload an image to the folder</li>
-  <li>In the above example I uploaded an image called gitHub_Pages_01.PNG</li>
-  <li>Use the following syntax to call the image in your readme.md file:</li>
-</ul>
+- Now create a folder in the repo called img
+- (You may wish to use a different folder structure)
+- Upload an image to the folder
+- In the above example I uploaded an image called gitHub_Pages_01.PNG
+- Use the following syntax to call the image in your readme.md file:
 
 ![gitHub_Pages_02.PNG](https://gamblepants.github.io/img/gitHub_Pages_02.PNG)
 
