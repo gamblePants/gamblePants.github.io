@@ -1,6 +1,6 @@
 # gamblePants.github.io
 
-This repository has been created soley for the purpose of hosting images for my GitHub documentation
+This repository has been created soley for the purpose of hosting images for my readme.md files in GitHub
 
 ## insctructions for how to use GitHub Pages to host images:
 
@@ -12,7 +12,7 @@ This repository has been created soley for the purpose of hosting images for my 
 </ul>
 
 <br ><br >
-
+Testing the index.html:
 ![gitHub_Pages_01.PNG](https://gamblepants.github.io/img/gitHub_Pages_01.PNG)
 
 <ul>
