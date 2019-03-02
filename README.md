@@ -9,9 +9,7 @@ This repository has been created soley for the purpose of hosting images for my 
 - Test it is working by going to https://(username).github.io
 - If you can view the html file it should be all set up
 
-
-
-
+<br ><br >
 ![gitHub_Pages_01.PNG](https://gamblepants.github.io/img/gitHub_Pages_01.PNG)
 
 - Now create a folder in the repo called img
