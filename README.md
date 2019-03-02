@@ -10,6 +10,8 @@ This repository has been created soley for the purpose of hosting images for my 
 - If you can view the html file it should be all set up
 
 
+
+
 ![gitHub_Pages_01.PNG](https://gamblepants.github.io/img/gitHub_Pages_01.PNG)
 
 - Now create a folder in the repo called img
