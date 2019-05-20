@@ -6,13 +6,7 @@ border-style: none;
 list-style-type: none;
 }
 
-body{
-	font-family: helvetica, calibri, arial, sans-serif;
-	background: #fff;
-	color: #000;
-	font-size: 86%;
-	line-height: 140%;	
-}
+
 
 body a{
 	text-decoration: none;
