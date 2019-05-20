@@ -1,0 +1,21 @@
+[{
+ "address": "205 Traflagar Street Stanmore 2048",
+ "type": "Apartment 2 bedroom",
+ "avail": "Available now",
+ "bedrooms": "2 bedrooms",
+ "pic": "<img src='images/apartment-2094666_640_small.jpg' width='150' height='110' alt='apartment_kitchen_pic'>",
+ "description": "Sunny balcony for Summer barbeques. Newly rennovated kitchen and bathroom. Reverse cycle air-conditioning. 3 minutes walk to the train station and shops.",
+ "rent": "$1760 per month",
+ "parking": "street parking",
+ "bathrooms": "1 bathroom"
+}, {
+ "address": "21 Gordon Street Petersham 2049",
+ "type": "Apartment 2 bedroom",
+ "avail": "Available 2 weeks",
+ "bedrooms": "2 bedrooms",
+ "pic": "<img src='images/vaux-villaine-107350_640_small.jpg' width='150' height='110' alt='apartment_kitchen_pic'>",
+ "description": "Heritage listed building. Sandstone walls and vaulted ceilings. Floorboards recently restored. Double-glazed windows. Secure common area for bicycles.",
+ "rent": "$1600 per month",
+ "parking": "street parking",
+ "bathrooms": "1 bathroom"
+}]

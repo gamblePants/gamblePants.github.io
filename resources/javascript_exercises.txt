@@ -1,0 +1,9 @@
+1. Validate the form on your contact page. Ensure that all text has content, and that the content conforms to requirements (you decide and document what those requirements are).
+
+2. When the form has been validated, show a confirm dialog box that displays the data entered and asks the user if that data entered is correct. If yes, thank the visitor and submit the form. If no, prevent the form from submitting so users can go back and make adjustments where necessary. Ensure the form fields remain populated with data.
+
+4. Add functionality that allows the user to enter the name of an item into a search field. As they type, a list of possible matches should appear. The user can select an item on the list to place it into the search textbox.
+
+6. As an alternative to above, dynamically build a table that contains a list of products/services that a user enters into the search textbox. This would be done when the user clicks the search button. If there are no products matching the entered term, a message informing the user that no matches have been found should be displayed in the page (not in an alert box).
+
+7.Create an image gallery that allows the user to move through a selection of recommended products/services. The user should be able to move backwards and forward through the selection.
