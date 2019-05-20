@@ -1,6 +1,6 @@
 # gamblePants.github.io
 
-This repository has been created soley for the purpose of hosting images for my readme.md files in GitHub
+This repository was initialy created for the purpose of hosting images for my readme.md files on GitHub. I will now also be using this repo to host static test websites (html, css and javascript).
 
 ## Insctructions for how to use GitHub Pages to host images:
 
