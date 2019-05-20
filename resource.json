@@ -1,21 +1,57 @@
-[{
- "address": "205 Traflagar Street Stanmore 2048",
- "type": "Apartment 2 bedroom",
- "avail": "Available now",
- "bedrooms": "2 bedrooms",
- "pic": "<img src='images/apartment-2094666_640_small.jpg' width='150' height='110' alt='apartment_kitchen_pic'>",
- "description": "Sunny balcony for Summer barbeques. Newly rennovated kitchen and bathroom. Reverse cycle air-conditioning. 3 minutes walk to the train station and shops.",
- "rent": "$1760 per month",
- "parking": "street parking",
- "bathrooms": "1 bathroom"
-}, {
- "address": "21 Gordon Street Petersham 2049",
- "type": "Apartment 2 bedroom",
- "avail": "Available 2 weeks",
- "bedrooms": "2 bedrooms",
- "pic": "<img src='images/vaux-villaine-107350_640_small.jpg' width='150' height='110' alt='apartment_kitchen_pic'>",
- "description": "Heritage listed building. Sandstone walls and vaulted ceilings. Floorboards recently restored. Double-glazed windows. Secure common area for bicycles.",
- "rent": "$1600 per month",
- "parking": "street parking",
- "bathrooms": "1 bathroom"
-}]
+[
+    {
+        "address": "205 Traflagar Street Stanmore 2048",
+        "type": "Apartment 2 bedroom",
+        "avail": "Available now",
+        "bedrooms": "2 bedrooms",
+        "pic": "<img src='images/apartment-2094666_640_small.jpg' width='150' height='110' alt='apartment_kitchen_pic'>",
+        "description": "Sunny balcony for Summer barbeques. Newly rennovated kitchen and bathroom. Reverse cycle air-conditioning. 3 minutes walk to the train station and shops.",
+        "rent": "$1760 per month",
+        "parking": "street parking",
+        "bathrooms": "1 bathroom"
+    },
+    {
+        "address": "21 Gordon Street Petersham 2049",
+        "type": "Apartment 2 bedroom",
+        "avail": "Available 2 weeks",
+        "bedrooms": "2 bedrooms",
+        "pic": "<img src='images/vaux-villaine-107350_640_small.jpg' width='150' height='110' alt='apartment_kitchen_pic'>",
+        "description": "Heritage listed building. Sandstone walls and vaulted ceilings. Floorboards recently restored. Double-glazed windows. Secure common area for bicycles.",
+        "rent": "$1600 per month",
+        "parking": "street parking",
+        "bathrooms": "1 bathroom"
+    },
+    {
+        "address": "24 Bridge Road Stanmore 2048",
+        "type": "Apartment 3 bedroom",
+        "avail": "Available now",
+        "bedrooms": "3 bedrooms",
+        "pic": "<img src='images/window-3042834_640_small.jpg' width='150' height='110' alt='apartment_livingroom_pic'>",
+        "description": "2 storey apartment with large outdoor courtyard in the back, plenty of room for gardening or storage. Great views of the city from the top floor.",
+        "rent": "$1580 per month",
+        "parking": "street parking",
+        "bathrooms": "2 bathrooms"
+    },
+    {
+        "address": "121B Cavendish Street Stanmore 2048",
+        "type": "Apartment 3 bedroom",
+        "avail": "Available now",
+        "bedrooms": "3 bedrooms",
+        "pic": "<img src='images/apartment-2094701_640_small.jpg' width='150' height='110' alt='apartment_sunnykitchen_pic'>",
+        "description": "Newly renovated kitchen with dishwasher and induction oven. Close to Stanmore Public School and shops. Built-in wardrobes. Reverse cycle air-conditioning. ",
+        "rent": "$1690 per month",
+        "parking": "covered carport parking",
+        "bathrooms": "1 bathroom"
+    },
+    {
+        "address": "58A Harrow Rd Stanmore 2048",
+        "type": "Apartment 3 bedroom",
+        "avail": "Available now",
+        "bedrooms": "3 bedrooms",
+        "pic": "<img src='images/dining-room-3108037_640_small.jpg' width='150' height='110' alt='openplan_diningroom_pic'>",
+        "description": "Large open-plan dining and living room with big windows. 5 minutes walk to Stanmore Station. Great views. Owner is looking for a long-term rental. ",
+        "rent": "$1800 per month",
+        "parking": "off-street parking",
+        "bathrooms": "1 bathroom"
+    }
+]
