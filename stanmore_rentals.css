@@ -142,7 +142,7 @@ table th, table td{
 }
 
 .propTable tbody tr :nth-child(3){
-	padding: 0 10px 0 10px;
+	padding: 0 20px 0 10px;
 }
 
 .propTable tbody tr :nth-child(4){
