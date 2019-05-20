@@ -9,7 +9,7 @@ list-style-type: none;
 body {
     font-family: helvetica, calibri, arial, sans-serif;
     background: #fff;
-    color: #000;
+    color: #fff;
     font-size: 86%;
     line-height: 140%;
 }
@@ -147,6 +147,7 @@ table th, table td{
 
 .propTable tbody tr :nth-child(4){
 	padding: 0 0px 0 10px;
+    width: 100px;
 }
 
 .toprow{
