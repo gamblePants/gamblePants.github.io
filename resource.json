@@ -54,7 +54,7 @@
         "parking": "shared garage",
         "bathrooms": "1 bathroom"
     },
-	{
+    {
         "address": "5-2 Hordern Avenue Petersham 2049",
         "type": "Duplex 3 bedroom",
         "avail": "Available 4 weeks",
@@ -63,6 +63,72 @@
         "description": "New building with secure fence around the property. Communal garden and barbeque area. Double-glazed windows. Large garage with loft storage area.",
         "rent": "$1710 per month",
         "parking": "double garage",
+        "bathrooms": "1 bathroom"
+    },
+    {
+        "address": "38 Albert Street Petersham 2049",
+        "type": "House 3 bedroom",
+        "avail": "Available now",
+        "bedrooms": "3 bedrooms",
+        "pic": "<img src='images/interior-2400372_640_small.jpg' width='150' height='110' alt='openplan_diningroom_pic'>",
+        "description": "New oven and kitchen counter. Spacious open plan living room looking out to the back yard. Fish pond and covered barbeque area.",
+        "rent": "$1800 per month",
+        "parking": "double garage",
+        "bathrooms": "1 bathroom"
+    },
+    {
+        "address": "2 Bent Street Petersham 2049",
+        "type": "House 4 bedroom",
+        "avail": "Available now",
+        "bedrooms": "4 bedrooms",
+        "pic": "<img src='images/house-2567680_640_small.jpg' width='150' height='110' alt='openplan_diningroom_pic'>",
+        "description": "New floorboards and weathered brick interior. Small bungalow attached to the back of the house. Raised veggy beds and toolshed in the backyard.",
+        "rent": "$1850 per month",
+        "parking": "double carport parking",
+        "bathrooms": "2 bathrooms"
+    },
+    {
+        "address": "125 Cardigan Street Stanmore 2048",
+        "type": "House 4 bedroom",
+        "avail": "Available now",
+        "bedrooms": "4 bedrooms",
+        "pic": "<img src='images/furniture-3042835_640_small.jpg' width='150' height='110' alt='openplan_diningroom_pic'>",
+        "description": "A garden of rainforest plants provide great privacy from the front. Combination interior of weathered brick and newly painted walls. Raised veggie beds in the back.",
+        "rent": "$1820 per month",
+        "parking": "street parking",
+        "bathrooms": "1 bathroom"
+    },
+    {
+        "address": "66 Cavendish Street Stanmore 2048",
+        "type": "House 4 bedroom",
+        "avail": "Available now",
+        "bedrooms": "4 bedrooms",
+        "pic": "<img src='images/porch-186402_640_small.jpg' width='150' height='110' alt='openplan_diningroom_pic'>",
+        "description": "Leafy suburb. Large Federation style verandah. High ceilings and large windows. Well kept gardens",
+        "rent": "$1920 per month",
+        "parking": "double garage",
+        "bathrooms": "2 bathrooms"
+    },
+    {
+        "address": "77 Cambridge Street Stanmore 2048",
+        "type": "House 5 bedroom",
+        "avail": "Available now",
+        "bedrooms": "4 bedrooms",
+        "pic": "<img src='images/manor-house-2359884_640_small.jpg' width='150' height='110' alt='openplan_diningroom_pic'>",
+        "description": "Luxurious pool surrounded by palm trees. Large courtyard and bungalow for entertaining guests. Slate floors and marble kitchen tops",
+        "rent": "$2100 per month",
+        "parking": "double garage",
+        "bathrooms": "3 bathrooms"
+    },
+    {
+        "address": "6 Merchant Street Stanmore 2048",
+        "type": "House 5 bedroom",
+        "avail": "Available now",
+        "bedrooms": "4 bedrooms",
+        "pic": "<img src='images/house-196006_640_small.jpg' width='150' height='110' alt='openplan_diningroom_pic'>",
+        "description": "House backs on to a large park, pets welcome. Newly painted interior. Reverse cycle air-conditioning. 10 minutes walk to Newtown shops.",
+        "rent": "$1880 per month",
+        "parking": "off street parking",
         "bathrooms": "1 bathroom"
     }
 ]
