@@ -138,15 +138,17 @@ table th, table td{
 }
 
 .propTable tbody tr :nth-child(2){
-	padding: 0 10px 0 10px;
+	padding: 0 20px 0 25px;
+	
 }
 
 .propTable tbody tr :nth-child(3){
 	padding: 0 20px 0 10px;
+	width: 130px;
 }
 
 .propTable tbody tr :nth-child(4){
-	padding: 0 0px 0 10px;
+	padding: 0 20px 0 0px;
     width: 100px;
 }
 
@@ -156,6 +158,15 @@ table th, table td{
 
 .separator{
 	height: 35px;
+}
+
+#buttonAndMsg{
+	display: flex;
+	justify-content: space-between;
+}
+
+#msgNoneFound{
+	padding: 39px 350px 0 20px;
 }
 
 footer{

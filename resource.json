@@ -44,14 +44,25 @@
         "bathrooms": "1 bathroom"
     },
     {
-        "address": "58A Harrow Rd Stanmore 2048",
-        "type": "Apartment 3 bedroom",
+        "address": "39 Macaulay Rd Stanmore 2048",
+        "type": "Duplex 3 bedroom",
         "avail": "Available now",
         "bedrooms": "3 bedrooms",
-        "pic": "<img src='images/dining-room-3108037_640_small.jpg' width='150' height='110' alt='openplan_diningroom_pic'>",
-        "description": "Large open-plan dining and living room with big windows. 5 minutes walk to Stanmore Station. Great views. Owner is looking for a long-term rental. ",
-        "rent": "$1800 per month",
-        "parking": "off-street parking",
+        "pic": "<img src='images/houston-texas-apartment-complex-2732355_640_small.jpg' width='150' height='110' alt='openplan_diningroom_pic'>",
+        "description": "New building with reverse cycle air-conditioning. North facing balcony. Secure fenced backyard. Spacious loft with built-in wardrobes. Spacious double-garage for storage",
+        "rent": "$1650 per month",
+        "parking": "shared garage",
+        "bathrooms": "1 bathroom"
+    },
+	{
+        "address": "5-2 Hordern Avenue Petersham 2049",
+        "type": "Duplex 3 bedroom",
+        "avail": "Available 4 weeks",
+        "bedrooms": "3 bedrooms",
+        "pic": "<img src='images/real-estate-3297625_640_small.jpg' width='150' height='110' alt='openplan_diningroom_pic'>",
+        "description": "New building with secure fence around the property. Communal garden and barbeque area. Double-glazed windows. Large garage with loft storage area.",
+        "rent": "$1710 per month",
+        "parking": "double garage",
         "bathrooms": "1 bathroom"
     }
 ]

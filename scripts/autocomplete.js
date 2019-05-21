@@ -9,6 +9,7 @@ function autocomplete(inp, arr) {
       var a, b, i, val = this.value;
       /*close any already open lists of autocompleted values*/
       closeAllLists();
+	  document.getElementById("msgNoneFound").innerHTML = ""; // added this bit so user gets feedback
       if (!val) { return false;}
       currentFocus = -1;
       /*create a DIV element that will contain the items (values):*/

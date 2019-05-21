@@ -36,12 +36,14 @@
 		<main>
 			<section id="rentals">
 				<h1>Search for Rentals</h1>
-				<h2>(By property type eg: Townhouse, Apartment, Bungalow)</h2>
-				<form autocomplete="off" action="javascript:getProperties('resource.json', 'searchResults');">
+				<h2>(By property type eg: Townhouse, Apartment, House)</h2>
+				<form autocomplete="off" action="javascript:getProperties('resource.json', 'searchResults', searchBar.value);">
 					<div class="autocomplete" style="width:300px;">
 					<input id="searchBar" type="text" name="property" placeholder="Type of Property">
 					</div>
-					<input type="submit" value="Search" >
+					<div id="buttonAndMsg">
+					<input type="submit" value="Search" ><div id="msgNoneFound"></div>
+					</div>
 				</form>
 				<div id="searchResults">
 				</div>
@@ -61,7 +63,7 @@
 	
 	<script>
 		/* array of available types of properties */
-		var properties = ["Apartment 2 bedroom", "Apartment 3 bedroom", "Bungalow", "Duplex 2 bedroom", "Duplex 3 bedroom", "House 3 bedroom", "House 4 bedroom", "House 5 bedroom", "Studio", "Terrace 3 bedroom", "Terrace 4 bedroom", "Townhouse 2 bedroom", "Townhouse 3 bedroom"];
+		var properties = ["Apartment 2 bedroom", "Apartment 3 bedroom", "Duplex 3 bedroom", "House 3 bedroom", "House 4 bedroom", "House 5 bedroom", "Studio", "Terrace 3 bedroom", "Terrace 4 bedroom", "Townhouse 2 bedroom", "Townhouse 3 bedroom"];
 		
 		/*initiate the autocomplete function on the "searchBar" element, and pass along the properties array as possible autocomplete values:*/
         autocomplete(document.getElementById("searchBar"), properties);
