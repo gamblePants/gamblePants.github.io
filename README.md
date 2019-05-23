@@ -13,6 +13,7 @@ The current test website (Stanmore Property Rentals) is an assignment for my Jav
 3. Add functionality that allows the user to enter the name of an item into a search field. As they type, a list of possible matches should appear. The user can select an item on the list to place it into the search textbox.
 
 4. Dynamically build a table that contains a list of products/services that a user enters into the search textbox. This would be done when the user clicks the search button. If there are no products matching the entered term, a message informing the user that no matches have been found should be displayed in the page (not in an alert box).
+
 5.Create an image gallery that allows the user to move through a selection of recommended products/services. The user should be able to move backwards and forward through the selection.
 
 ## Insctructions for how to use GitHub Pages to host images:
