@@ -4,19 +4,17 @@ This repository was initialy created for the purpose of hosting images for my re
 
 ## Current test website
 
-The current test website (Stanmore Property Rentals) is an assignment for my Javascript class at TAFE. 2 of the html pages (index and staff) had previously been created in my HTML class so I added some javascript functions in as well as 2 extra html pages (contact and rentals). 
-
-### Javascript functions to add (5 out 11 choices)
+The current test website (Stanmore Property Rentals) is an assignment for my Javascript class. 2 of the html pages (index and staff) had previously been created in my HTML class. I added 2 extra html pages (contact and rentals) and the following javascript functions:
 
 1. Validate the form on your contact page. Ensure that all text has content, and that the content conforms to requirements (you decide and document what those requirements are).
 
 2. When the form has been validated, show a confirm dialog box that displays the data entered and asks the user if that data entered is correct. If yes, thank the visitor and submit the form. If no, prevent the form from submitting so users can go back and make adjustments where necessary. Ensure the form fields remain populated with data.
 
-4. Add functionality that allows the user to enter the name of an item into a search field. As they type, a list of possible matches should appear. The user can select an item on the list to place it into the search textbox.
+3. Add functionality that allows the user to enter the name of an item into a search field. As they type, a list of possible matches should appear. The user can select an item on the list to place it into the search textbox.
 
-6. As an alternative to above, dynamically build a table that contains a list of products/services that a user enters into the search textbox. This would be done when the user clicks the search button. If there are no products matching the entered term, a message informing the user that no matches have been found should be displayed in the page (not in an alert box).
+4. Dynamically build a table that contains a list of products/services that a user enters into the search textbox. This would be done when the user clicks the search button. If there are no products matching the entered term, a message informing the user that no matches have been found should be displayed in the page (not in an alert box).
 
-7.Create an image gallery that allows the user to move through a selection of recommended products/services. The user should be able to move backwards and forward through the selection.
+5.Create an image gallery that allows the user to move through a selection of recommended products/services. The user should be able to move backwards and forward through the selection.
 
 ## Insctructions for how to use GitHub Pages to host images:
 
@@ -31,7 +29,7 @@ The current test website (Stanmore Property Rentals) is an assignment for my Jav
 - Now create a folder in the repo called img
 - (You may wish to use a different folder structure)
 - Upload an image to the folder
-- In the above example I uploaded an image called gitHub_Pages_01.PNG
+- The screenshot above is called gitHub_Pages_01.PNG
 - Use the following syntax to call the image when you edit your readme.md file:
 
 ```
