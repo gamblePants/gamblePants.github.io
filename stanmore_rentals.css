@@ -153,7 +153,8 @@ table th, table td{
 }
 
 .toprow{
-	white-space: nowrap;	
+	white-space: nowrap;
+    font-weight: bold;
 }
 
 .separator{
