@@ -1,3 +1,5 @@
+window.onload = getProperties('resource.json', 'searchResults', 'Terrace 4 bedrooms');
+
 function getProperties(file, divID, selected)
 {		
 	var xhr = new XMLHttpRequest();
@@ -12,7 +14,7 @@ function getProperties(file, divID, selected)
 			
 			for(let key in data){
 				if(selected == data[key].type){					
-					output += "<tr class='toprow'><td>" + data[key].address + "</td><td>" + data[key].type + "</td><td>" + data[key].avail + "</td><td>" + data[key].bedrooms + "</td><td rowspan='2'>" + data[key].pic + "</td></tr>"
+					output += "<tr class='toprow'><td>" + data[key].address + "</td><td>" + data[key].type.split(' ')[0] + "</td><td>" + data[key].avail + "</td><td>" + data[key].bedrooms + "</td><td rowspan='2'>" + data[key].pic + "</td></tr>"
 					+ "<tr><td>" + data[key].description + "</td><td>" + data[key].rent + "</td><td>" + data[key].parking + "</td><td>" + data[key].bathrooms + "</td></tr>"
 					+ "<tr class='separator'></tr>";
 					resultsFound = true;

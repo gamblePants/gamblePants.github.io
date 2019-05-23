@@ -139,12 +139,12 @@ table th, table td{
 
 .propTable tbody tr :nth-child(2){
 	padding: 0 20px 0 25px;
-	
+    width: 150px;	
 }
 
 .propTable tbody tr :nth-child(3){
 	padding: 0 20px 0 10px;
-	width: 130px;
+	width: 140px;
 }
 
 .propTable tbody tr :nth-child(4){
