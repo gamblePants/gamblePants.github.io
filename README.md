@@ -2,7 +2,7 @@
 
 This repository was initialy created for the purpose of hosting images for my readme.md files on GitHub. Now I'm also using it to host static test websites (html, css and javascript).
 
-## Current test website
+## Current test website https://gamblepants.github.io/
 
 The current test website (Stanmore Property Rentals) is an assignment for my Javascript class. 2 of the html pages (index and staff) had previously been created in my HTML class. I added 2 extra html pages (contact and rentals) and the following javascript functions:
 
