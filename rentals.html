@@ -27,7 +27,7 @@
 			<li><a id="current-page" href="rentals.html">RENTALS</a></li>
 			<li><a href="staff.html">STAFF</a></li>
 			<li><a href="about.html">ABOUT US</a></li>
-			<li><a href="investments.html">INVESTMENTS</a></li>
+			<li><a href="gallery.html">GALLERY</a></li>
 			<li><a href="contact.html">CONTACT US</a></li>
 		</ul>
 	</nav>
@@ -37,7 +37,7 @@
 			<section id="rentals">
 				<h1>Search for Rentals</h1>
 				<h2>(By property type eg: Townhouse, Apartment, House)</h2>
-				<form autocomplete="off" action="javascript:getProperties('resource.json', 'searchResults', searchBar.value);">
+				<form autocomplete="off" action="javascript:getProperties('resource.json', searchBar.value);">
 					<div class="autocomplete" style="width:300px;">
 					<input id="searchBar" type="text" name="property" placeholder="Type of Property">
 					</div>

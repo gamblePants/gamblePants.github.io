@@ -128,7 +128,7 @@ table th, table td{
 }
 
 .propTable{
-	margin: 50px 0 50px 0;
+	margin-bottom: 50px;
 	width: auto;		
 }
 
@@ -161,6 +161,10 @@ table th, table td{
 	height: 35px;
 }
 
+#searchResults{
+    margin-top: 50px;
+}
+
 #buttonAndMsg{
 	display: flex;
 	justify-content: space-between;
@@ -168,6 +172,15 @@ table th, table td{
 
 #msgNoneFound{
 	padding: 39px 350px 0 20px;
+}
+
+#gallery{
+    margin: 30px auto 30px auto;
+}
+
+#infoPanel{
+    font-size: 80%;
+    margin: 0 105px 0 130px;
 }
 
 footer{
