@@ -1,5 +1,4 @@
 ﻿<!doctype html>
-
 <html lang="en">
 
 <head>
@@ -10,65 +9,57 @@
 	<link rel="stylesheet" href="autocomplete.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="scripts/autocomplete.js"></script>	
-	<script src="scripts/jsonCall.js"></script>	
+	<script src="scripts/jsonCall.js"></script>    
 </head>
 
 
-<body>
-	<div id="wrapper">
+<body onload="displayResults('Terrace 4 bedrooms')">
+    <div id="wrapper">
+        <header>
+            <a href="index.html"><img src="images/stanmore_property_rentals_logo.png" alt="logo_pic" width="900" height="147" title="Stanmore has bogans"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a id="current-page" href="rentals.html">RENTALS</a></li>
+                <li><a href="staff.html">STAFF</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div id="inner-wrapper">
 
-	<header>
-		<a href="index.html"><img src="images/stanmore_property_rentals_logo.png" alt="logo_pic" width="900" height="147" title="Stanmore has bogans"></a>
-	</header>
+            <main>
+                <section id="rentals">
+                    <h1>Search for Rentals</h1>
+                    <h2>(By property type eg: Townhouse, Apartment, House)</h2>
+                    <form autocomplete="off" action="javascript:displayResults(searchBar.value);">
+                        <div class="autocomplete" style="width:300px;">
+                            <input id="searchBar" type="text" name="property" placeholder="Type of Property">
+                        </div>
+                        <div id="buttonAndMsg">
+                            <input type="submit" value="Search"><div id="msgNoneFound"></div>
+                        </div>
+                    </form>
+                    <div id="searchResults">
+                    </div>
+                </section>
+            </main>
 
-	<nav>
-		<ul>
-			<li><a href="index.html">HOME</a></li>
-			<li><a id="current-page" href="rentals.html">RENTALS</a></li>
-			<li><a href="staff.html">STAFF</a></li>
-			<li><a href="about.html">ABOUT US</a></li>
-			<li><a href="gallery.html">GALLERY</a></li>
-			<li><a href="contact.html">CONTACT US</a></li>
-		</ul>
-	</nav>
-		<div id="inner-wrapper">
-		
-		<main>
-			<section id="rentals">
-				<h1>Search for Rentals</h1>
-				<h2>(By property type eg: Townhouse, Apartment, House)</h2>
-				<form autocomplete="off" action="javascript:getProperties('resource.json', searchBar.value);">
-					<div class="autocomplete" style="width:300px;">
-					<input id="searchBar" type="text" name="property" placeholder="Type of Property">
-					</div>
-					<div id="buttonAndMsg">
-					<input type="submit" value="Search" ><div id="msgNoneFound"></div>
-					</div>
-				</form>
-				<div id="searchResults">
-				</div>
-			</section>
-		</main>
-			
-		<footer>
-			<ul>
-				<li>&copy; Stanmore Property Rentals 2014-2019</li>
-				<li><a href="privacy.html">Privacy</a></li>
-				<li><a href="https://facebook.com"><img src="images/facebook.png" alt="facebook_logo" width="25" height="25"></a></li>
-				<li><a href="documents/checklist.pdf" target="_blank" rel="noopener noreferrer">[ Task Checklist ]</a></li>
-			</ul>
-		</footer>
-		</div>
-	</div>
-	
-	<script>
-		/* array of available types of properties */
-		var properties = ["Apartment 2 bedrooms", "Apartment 3 bedrooms", "Duplex 3 bedrooms", "House 3 bedrooms", "House 4 bedrooms", "House 5 bedrooms", "Studio", "Terrace 4 bedrooms", "Townhouse 2 bedrooms", "Townhouse 3 bedrooms"];
-		
-		/* initiate the autocomplete function on the "searchBar" element, and pass along the properties array as possible autocomplete values: */
-        autocomplete(document.getElementById("searchBar"), properties);
-	</script>
-	
+            <footer>
+                <ul>
+                    <li>&copy; Stanmore Property Rentals 2014-2019</li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="https://facebook.com"><img src="images/facebook.png" alt="facebook_logo" width="25" height="25"></a></li>
+                    <li><a href="documents/checklist.pdf" target="_blank" rel="noopener noreferrer">[ Task Checklist ]</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+    <script src="scripts/rentals.js"></script>  
+    
 </body>
 </html> 
 
