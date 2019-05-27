@@ -1,5 +1,5 @@
 var data;
-window.onload = getProperties();
+getProperties();
 
 function getProperties()
 {
@@ -16,7 +16,8 @@ function getProperties()
 		}
     }
     // send request to server and specify mime type
-	xhr.open("GET",'resource.json',true);
+    xhr.open("GET", 'https://api.myjson.com/bins/lsf44', true);
+    // xhr.open("GET", 'resource.json', true); alternative if myjson server is down
 	xhr.overrideMimeType("application/json");
 	xhr.send(null);	
 }

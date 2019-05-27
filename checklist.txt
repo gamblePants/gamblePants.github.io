@@ -1,0 +1,16 @@
+NECESSARY
+- test in all browsers and on the phone - DONE (IE, Edge, Firefox Chrome, Android - not Safari, Opera or iPhone)
+- does it degrade gracefully? turn off javascript and images - DONE (edge can't be turned off)
+- reminder messages to turn on javascript? gallery and search/send button - DONE
+- reduce duplicate xmlhttprequest function - DONE
+- documentation for steve (including comments) - DONE
+- upload json file and call from server - DONE
+- no dead links (privacy, floorplans, about)
+- favicon.ico - DONE
+- validate all html and css
+- upload final version to github and test
+
+
+OPTIONAL
+- load dynamic data on page load
+- click on thumbnail to go to gallery

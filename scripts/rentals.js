@@ -5,8 +5,8 @@ var properties = ["Apartment 2 bedrooms", "Apartment 3 bedrooms", "Duplex 3 bedr
 autocomplete(document.getElementById("searchBar"), properties);
 
 
-function displayResults(selected) {
-
+function displayResults(selected) {	
+	
     var resultsFound = false;
     let output = "<table class='propTable'><tbody>";
 
@@ -20,6 +20,7 @@ function displayResults(selected) {
         }
     }
     output += "</tbody></table>";
+    // alt attribute does not appear in table in chrome when images turned off
 
     // user feedback if search does not match
     if (resultsFound == false) {
@@ -30,6 +31,10 @@ function displayResults(selected) {
     }
 }
 
+window.addEventListener("load", function () {
+    displayResults("Terrace 4 bedrooms");
+    // this is working sporadically - having problems getting onload to work
+});
 
 
 

@@ -2,18 +2,22 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<title>     Stanmore Property Rentals - Located in Sydney's Inner West | Rentals    </title>  
-	<meta name="author" content="      Koan Stevenson - koan.stevenson@gmail.com     ">
-	<link rel="stylesheet" href="stanmore_rentals.css">
-	<link rel="stylesheet" href="autocomplete.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="scripts/autocomplete.js"></script>	
-	<script src="scripts/jsonCall.js"></script>    
+    <meta charset="utf-8">
+    <title>     Stanmore Property Rentals - Located in Sydney's Inner West | Rentals    </title>
+    <meta name="author" content="      Koan Stevenson - koan.stevenson@gmail.com     ">
+    <link rel="stylesheet" href="stanmore_rentals.css">
+    <link rel="stylesheet" href="autocomplete.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/autocomplete.js"></script>
+    <script src="scripts/jsonCall.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.json">
 </head>
 
 
-<body onload="displayResults('Terrace 4 bedrooms')">
+<body>
     <div id="wrapper">
         <header>
             <a href="index.html"><img src="images/stanmore_property_rentals_logo.png" alt="logo_pic" width="900" height="147" title="Stanmore has bogans"></a>
@@ -34,15 +38,18 @@
                 <section id="rentals">
                     <h1>Search for Rentals</h1>
                     <h2>(By property type eg: Townhouse, Apartment, House)</h2>
-                    <form autocomplete="off" action="javascript:displayResults(searchBar.value);">
+                    <form autocomplete="off" action="javascript:displayResults(document.getElementById('searchBar').value);" id="searchForm">
+                        <!-- had to put document.getElementById above for IE to work otherwise searchbar is undefined -->
                         <div class="autocomplete" style="width:300px;">
-                            <input id="searchBar" type="text" name="property" placeholder="Type of Property">
+                            <input id="searchBar" type="text" name="searchBar" placeholder="Type of Property">
                         </div>
                         <div id="buttonAndMsg">
-                            <input type="submit" value="Search"><div id="msgNoneFound"></div>
+                            <input type="submit" value="Search"><div id="msgNoneFound"><noscript>Please enable JavaScript in your browser settings for the search feature to work</noscript></div>
                         </div>
+                        
                     </form>
                     <div id="searchResults">
+                        
                     </div>
                 </section>
             </main>
@@ -58,8 +65,9 @@
         </div>
     </div>
 
-    <script src="scripts/rentals.js"></script>  
+    <script src="scripts/rentals.js"></script>
     
+
 </body>
 </html> 
 

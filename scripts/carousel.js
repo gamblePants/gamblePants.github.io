@@ -41,13 +41,14 @@ function showSlides(n) {
 
     let i = slideIndex - 1;
 
-    // splits img tag and sets src to larger image
+    // split img tag and set src to larger image
     var source = data[i].pic.split("\'")[1];
     source = source.replace("_small.jpg", ".jpg");
     placeholder.setAttribute("src", source);
 
     if (!document.getElementById("infoPanel")) { return; } // unobtrusive check
-            
+
+    // create dynamic table
     let output = "<table class='propTable'><tbody>" +
         "<tr class='toprow'><td>" + data[i].address + "</td><td>" + data[i].type.split(' ')[0] + "</td><td>" + data[i].avail + "</td><td>" + data[i].bedrooms + "</td></tr>" +
         "<tr><td>" + data[i].description + "</td><td>" + data[i].rent + "</td><td>" + data[i].parking + "</td><td>" + data[i].bathrooms + "</td></tr>" +
@@ -56,7 +57,7 @@ function showSlides(n) {
     document.getElementById("infoPanel").innerHTML = output;
 }    
 
-window.onload = prepareButtons();
+prepareButtons();
 
 /* plusSlides() and showSlides() adapted from script found here:
 https://www.w3schools.com/howto/howto_js_slideshow.asp */

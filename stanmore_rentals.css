@@ -80,7 +80,7 @@ section ul{
 }
 
 figure{
-	width: 450px;
+	width: auto; /*changed from 450px for IE*/
 	margin-right: 40px;		
 }
 
@@ -123,8 +123,9 @@ table caption{
 	margin-bottom: 3px;
 }
 
-table th, table td{
-	line-height: 120%;
+table th, table td {
+    line-height: 120%;
+    text-align: left; /*added for IE*/
 }
 
 .propTable{
@@ -172,6 +173,10 @@ table th, table td{
 
 #msgNoneFound{
 	padding: 39px 350px 0 20px;
+}
+
+#jsmsg{
+    margin: 0 auto 0 180px;
 }
 
 #gallery{
@@ -224,7 +229,8 @@ input[type=submit]:hover{
 textarea{
 	font-family: helvetica, calibri, arial, sans-serif;
 	font-size: 100%;
-	line-height: 140%;	
+	line-height: 140%;
+    display: block; /*added for edge*/
 }
 
 #contact li{
