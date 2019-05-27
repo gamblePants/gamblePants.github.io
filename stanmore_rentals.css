@@ -176,7 +176,7 @@ table th, table td {
 }
 
 #jsmsg{
-    margin: 0 auto 0 180px;
+    text-align: center;
 }
 
 #gallery{

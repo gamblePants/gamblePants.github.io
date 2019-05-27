@@ -5,12 +5,13 @@ NECESSARY
 - reduce duplicate xmlhttprequest function - DONE
 - documentation for steve (including comments) - DONE
 - upload json file and call from server - DONE
-- no dead links (privacy, floorplans, about)
+- no dead links (privacy, floorplans, about) - DONE
 - favicon.ico - DONE
-- validate all html and css
-- upload final version to github and test
+- validate all html and css - DONE
+- upload final version to github and test - DONE
 
 
 OPTIONAL
 - load dynamic data on page load
 - click on thumbnail to go to gallery
+- embed google map
