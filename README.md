@@ -1,6 +1,6 @@
 # gamblePants.github.io
 
-This repository was initialy created for the purpose of hosting images for my readme.md files on GitHub. Now I'm also using it to host static test websites (html, css and javascript).
+This repository was initially created for the purpose of hosting images for my readme.md files on GitHub. Now I'm also using it to host static test websites (html, css and javascript).
 
 ## Current test website https://gamblepants.github.io/
 
