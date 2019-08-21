@@ -42,7 +42,7 @@ function showSlides(n) {
     let i = slideIndex - 1;
 
     // split img tag and set src to larger image
-    var source = data[i].pic.split("\'")[1];
+    var source = data[i].pic.split("\'")[3];
     source = source.replace("_small.jpg", ".jpg");
     placeholder.setAttribute("src", source);
 

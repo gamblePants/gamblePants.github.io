@@ -80,7 +80,7 @@ section ul{
 }
 
 figure{
-	width: auto; /*changed from 450px for IE*/
+	width: auto; /*changed from 450px for IE */
 	margin-right: 40px;		
 }
 
@@ -125,7 +125,7 @@ table caption{
 
 table th, table td {
     line-height: 120%;
-    text-align: left; /*added for IE*/
+    text-align: left; /* added for IE */
 }
 
 .propTable{
@@ -214,7 +214,7 @@ label{
 
 input{
 	display: block;
-	line-height: 150%;
+	line-height: 150%;	
 }
 
 input[type=submit]{

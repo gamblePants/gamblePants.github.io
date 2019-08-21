@@ -5,7 +5,7 @@ var properties = ["Apartment 2 bedrooms", "Apartment 3 bedrooms", "Duplex 3 bedr
 autocomplete(document.getElementById("searchBar"), properties);
 
 
-function displayResults(selected) {	
+function displayResults(selected) {		
 	
     var resultsFound = false;
     let output = "<table class='propTable'><tbody>";
@@ -31,10 +31,8 @@ function displayResults(selected) {
     }
 }
 
-window.addEventListener("load", function () {
-    displayResults("Terrace 4 bedrooms");
-    // this is working sporadically - having problems getting onload to work
-});
-
+xhr.onload = function(){
+	displayResults("Terrace 4 bedrooms");
+};
 
 

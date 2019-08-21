@@ -12,6 +12,6 @@ NECESSARY
 
 
 OPTIONAL
-- load dynamic data on page load
-- click on thumbnail to go to gallery
+- load dynamic data on page load - DONE (finally)
+- click on thumbnail to go to gallery - PARTIAL
 - embed google map
