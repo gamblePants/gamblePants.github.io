@@ -4,7 +4,7 @@ This repository was initially created for the purpose of hosting images for my r
 
 ## Current test website https://gamblepants.github.io/
 
-This website (Stanmore Property Rentals) is an assignment for my Javascript class. 2 of the html pages (index and staff) had previously been created in my HTML class. I added 3 extra html pages (contact, rentals and gallery) for the following javascript functions:
+This website (Stanmore Property Rentals) was an assignment for my Javascript class. 2 of the html pages (index and staff) had previously been created in my HTML class. I added 3 extra html pages (contact, rentals and gallery) for the following javascript functions:
 
 1. Validate the form on your contact page. Ensure that all text has content, and that the content conforms to requirements (you decide and document what those requirements are).
 
